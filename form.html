@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Elements</title>
+</head>
+<body>
+  <fieldset>
+    <legend>Top heading</legend>
+    <figcaption>Form Elements</figcaption>
+  <form method="post">
+    <div>
+      <label>Firstname:</label>
+    <input type="text" placeholder="Enter your name" name="Firstname" required>
+  </div>
+  <div>
+    <label>DOB:</label>
+    <input type="date" name="dob">
+</div>
+<div>
+  <label>Checkbox:</label>
+<input type="checkbox" name="ischecked">
+</div>
+<div>
+  <label>radio button:</label>
+<input type="radio" name="gender" value="male" > male
+<input type="radio" name="gender" value="female" > female
+</div>
+<div>
+  <label>Gym Time:</label>
+  <input type="time" name="time"/>
+</div>
+<div>
+  <label>select:</label>
+  <select name="chars">
+    <option value="">choose..</option>
+    <option value="a">A</option>
+    <option value="b">B</option>
+    <option value="c">C</option>
+  </select>
+</div>
+<div>
+  <label>Text Area:</label>
+  <textarea cols="15" rows="3" name="textarea"></textarea>
+</div>
+<button type="submit">Form button</button>
+<button type="button">Submit button</button>
+  </form>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,79 @@
+.shadow-button{
+  background-color: green;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  margin-left: 10px;
+  margin-right: 50px;
+}
+.shadow-button:active{
+  margin-top: 3px;
+  margin-left: 3px;
+  box-shadow: none;
+}
+.one-button{
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  transition: padding 0.15s,
+    margin 0.15s;
+}
+.one-button:hover{
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.two-button{
+  background-color: green;
+  color: white;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  border: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: padding 0.15s,margin 0.15s;
+}
+.two-button:hover{
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.three-button{
+  background-color: green;
+  color: white;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: padding 0.15s,margin 0.15s;
+}
+.three-button:hover{
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+}

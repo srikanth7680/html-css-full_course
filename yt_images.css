@@ -1,0 +1,91 @@
+.cat-image{
+  width: 200px;
+  border-radius: 10px;
+}
+.cat-square{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+  margin-left: 100px;
+}
+.cat-circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 250px;
+  margin-left: 100px;
+  object-position: center;
+}
+.search-bar{
+  font-size: 40px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+.google-bar{
+  font-size: 16px;
+  border-radius: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 500px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mail-button{
+  width: 387px;
+  margin-top: 6px;
+  font-size: 30px
+}
+.para-text{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(66, 54, 54);
+
+}
+.agree-button{
+  border: none;
+  border-radius: 45px;
+  color: white;
+  background-color: #26a7de;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.cat-button{
+  width: 50px;
+  height: 50px;
+  border-radius: 250px;
+  object-position: center;
+  vertical-align: middle;
+}
+.going-button{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 8px;
+  margin-top: 8px;
+  color: rgb(66, 54, 54);
+  vertical-align: middle;
+}
+.tweet-button{
+  background-color: #26a7de;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 14px;
+  margin-left: 70px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+}

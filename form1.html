@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form1</title>
+</head>
+<body>
+  <fieldset>
+  <h1>Student Form</h1>
+  <form>
+    <div>
+    <label for="">Firstname:</label>
+    <input type="text" placeholder="Enter your name" name="firstname">
+    </div>
+    <br>
+    <div>
+      <label for="">Lastname:</label>
+      <input type="text" placeholder="Enter last name" name="lastname">
+    </div>
+    <br>
+    <div>
+      <label for="">Gender:</label>
+      <input type="radio" name="Gender"> Male
+      <input type="radio" name="Gender"> female
+      <input type="radio" name="Gender"> Transgender
+    </div>
+    <br>
+    <div>
+      <input type="checkbox" name="check" required>
+      <label for="">Agree Terms and conditions</label>
+    </div>
+    <br>
+    <div>
+      <label for="">Date of Birth:</label>
+      <input type="date" name="date">
+    </div>
+    <br>
+    <div>
+      <label for="">Appointment Time:</label>
+      <input type="time" name="times">
+    </div>
+    <br>
+    <div>
+      <label for="">select Country:</label>
+      <select name="pars" id="">
+        <option value="">-Choose</option>
+        <option value="">India</option>
+        <option value="">China</option>
+        <option value="">Mexico</option>
+      </select>
+    </div>
+    <br>
+    <div>
+    <button type="submit"  name="sub" class="button-text">Submit</button>
+    </div>
+  </fieldset>
+    <style>
+      .button-text{
+          margin-left: 40px;
+          }
+    </style>
+  </form>
+</body>
+</html>
